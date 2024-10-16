@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #f2eeee;
+    background-color: #f20101;
     border-radius: 5px;
 }
 
@@ -60,7 +60,7 @@ nav ul li a:hover {
 
 .container h2 {
     margin-bottom: 20px;
-    color: #ecebeb;
+    color: #100a0a;
 }
 
 .container p {
@@ -103,6 +103,6 @@ footer p {
     text-decoration: none;
 }
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: #da1212;
     color: black;
 }
