@@ -10,11 +10,37 @@
 </head>
 </html>
     <header>
-        <h1>Tentang</h1>
+        <h1 class="typing">Tentang</h1>
         <p>"If you don't fall how are you going to know what getting up is like."
 
             - Steph Curry</p>
     </header>
+    <title>Animasi Teks Mengetik</title>
+    <style>
+        .typing {
+            font-family: monospace;
+            border-right: 2px solid;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 0;
+            animation: typing 4s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink-caret {
+            50% {
+                border-color: transparent;
+            }
+        }
+    </style>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
