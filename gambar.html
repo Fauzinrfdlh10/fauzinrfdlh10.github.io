@@ -11,38 +11,24 @@
 <body>
 
     <header>
-        <h1 class="typing">Foto Foto Ikon Bintang Basket</h1>
+        <h1 class="fade-in">Foto Ikon Basketball</h1>
         <p>"If you don't fall how are you going to know what getting up is like."
 
             - Steph Curry</p>
     </header>
-    <title>Animasi Teks Mengetik</title>
+    <title>Animasi Teks Muncul Perlahan</title>
     <style>
-        .typing {
-            font-family: monospace;
-            border-right: 2px solid;
-            white-space: nowrap;
-            overflow: hidden;
-            width: 0;
-            animation: typing 4s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 3s forwards;
         }
 
-        @keyframes typing {
-            from {
-                width: 0;
-            }
+        @keyframes fadeIn {
             to {
-                width: 100%;
-            }
-        }
-
-        @keyframes blink-caret {
-            50% {
-                border-color: transparent;
+                opacity: 1;
             }
         }
     </style>
-    <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="tentang.html">Tentang</a></li>
